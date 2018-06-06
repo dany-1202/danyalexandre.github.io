@@ -1,0 +1,154 @@
+html{
+	height: 100%;
+	overflow: hidden;
+}
+
+body{
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Muli, Futura, Helvetica, Arial, sans-serif;
+    perspective: 1px;
+    overflow-x:hidden;
+    overflow-y:scroll; 
+    color: white; 
+    background-image: url(./../img/fond1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.navBar{
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top : 0;
+	left : 0;
+	border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: white;
+    background-color: #1b1b1b;
+}
+.center{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+.logo{
+	padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 4%;
+    height: 3rem;
+}
+.navigation{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;	
+	display: flex;
+}
+.navigation li{
+	list-style: none;
+	padding: 0px 10px;
+}
+.navigation li a{
+	line-height: 80px;
+	color:white;
+	padding: 10px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.navigation li a:hover{
+	background-color: white;
+	color: black;
+}
+.box{
+	display: table;
+	height: 100vh;
+	width: 100%;
+	max-height: 100%;
+}
+.box1{
+	
+}
+.box1 div{
+	padding-top: 100px;
+	text-align: center;
+	width: 50%!important;
+	height: 100%;
+	margin: 0 auto;
+}
+.box2{
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+.box2 .row{
+	width: 100%;
+	height: 400px;
+	background-color: #fff;
+	margin: 0 auto;
+	border-top: 1px solid #e0e0e0;
+	display: table;
+}
+.box2 .item{
+	margin: 0 auto;
+	width: 80%;
+	height: 100%;
+	padding-top: 100px;
+    padding-bottom: 100px;
+    display: block;
+}
+.box2 .screenshot{
+	width: 50%;
+	float: left;
+}
+.box2 .description{
+	width: 50%;
+	float: right;
+}
+.box2 .description p{
+	color: #868686;
+}
+.box2 .description a{
+	color: black;
+	transition: color .2s;
+}
+.box2 .description a:hover{
+	color: #f04;
+}
+.box2 .description ul{
+	list-style: none;
+}
+.box2 .description li{
+	color: #fff;
+	text-shadow: 0 1px 0 rgba(0,0,0,.15);
+	line-height: 32px;
+    display: inline;
+    border-radius: 4px;
+    font-size: 12px;
+    background: #f04;
+    padding: 4px 9px;
+}
+.box2 .projects{
+	width: 100%;
+}
+.box2 a{
+	color: #3273dc;
+}
+.box2 img{
+	position:relative;
+    top:30%;
+	width: 60%;
+    height: 40%;
+}
+.box3{
+	height: 50vh!important;
+	background-color: #1b1b1b;
+}
+.box3 div{
+	text-align: center;
+	margin: 0 auto;
+}
